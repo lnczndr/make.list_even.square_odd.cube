@@ -1,0 +1,28 @@
+#LANA CAZANDRA U. LEGASPI - BSCPE 1-5
+
+#ASSIGNMENT 4: PROGRAM 4
+
+#Pseudocode
+def process ():
+    #open integer list
+    #append squared even integers
+    #append cubed odd integers
+    with open("integers.txt") as integer_list, open("double.txt", "a") as even_square_list, open("triple.txt", "a") as odd_cube_list:
+
+        #read integer list
+        for line in integer_list:
+            #converting string into an integer by assigning a variable
+            integer_num = int(line)
+
+            #squaring even integers
+            if integer_num % 2 == 0:
+                squared_even = integer_num * integer_num
+                even_square_list.write(str(squared_even) + "\n")
+
+                #writing the double.txt list
+            #cubing the odd integers
+            else:
+                print ()
+            #writing the triple.txt list
+
+process ()
