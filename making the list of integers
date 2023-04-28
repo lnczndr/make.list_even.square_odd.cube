@@ -1,0 +1,21 @@
+#LANA CAZANDRA U. LEGASPI - BSCPE 1-5
+
+#ASSIGNMENT 4: PROGRAM 4
+
+#Pseudocode
+def process ():
+    #open integer list
+    #append squared even integers
+    #append cubed odd integers
+    with open("integers.txt") as integer_list, open("double.txt", "a") as even_square_list, open("triple.txt", "a") as odd_cube_list:
+
+        #read integer list
+        for line in integer_list:
+            print (line.strip())
+
+        #squaring even integers
+        #writing the double.txt list
+        #cubing the odd integers
+        #writing the triple.txt list
+
+process ()
