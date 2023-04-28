@@ -20,10 +20,13 @@ def process ():
 
                 #writing the double.txt list
                 even_square_list.write(str(squared_even) + "\n")
-                
+
             #cubing the odd integers
             else:
                 print ()
-            #writing the triple.txt list
+                cube_odd = integer_num * integer_num * integer_num
+
+                #writing the triple.txt list
+                odd_cube_list.write(str(cube_odd) + "\n")
 
 process ()
